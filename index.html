@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Metaetiquetas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esta es una descripcion de mi website">
+    <meta name="author" content="nombre autor">
+    <meta property="og:title" content="titulo de website en redes sociales">
+    <meta property="og:description" content="Esta es la descripcion para redes sociales">
+    <!-- titulo -->
+    <title> 🌊html_esencial </title>
+    <!-- favicon -->
+    <link rel="icon" src="/img1.jpg">
+</head>
+
+<body>
+    <h1>Curso HTML5 Esencial en Linkedin Learning</h1>
+    <div style="background-color: bisque;">
+        <h2>Postcasd</h2>
+        <p>Merry Christmas</p>
+    </div> 
+    <img src="/christmas.gif" alt="" width="50%" height="auto" style="margin-left: 1cm;">
+
+    <header>
+        <!--Cabecera de la pagina-->
+        <h1> Etiquetas semantica en HTML5 </h1>
+        <p> Listas Ordenadas y Listas Desordenadas </p>
+    <nav> <!-- Apartado de contenido osea contenido de la web -->
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main>
+        <h2> Añadir Audio </h2>
+        <p> Mp4 </p>
+        <audio src="/audio_message.mp4" controls>Error: tu navegador no soporta este audio
+        </audio>
+
+        <h2>Anadir Emogis</h2>
+        <p>Emogi ejemplo &#x1f600</p>
+
+        <h2>Crear Graficos</h2>
+        <p>Texto ejemplo</p>
+        <svg width="200" height="200">
+            <rect x="0" y="20" width="100" height="60" fill="green">
+                <animate attributeName="x" from="0" to="250" dur="2s" repeatCount="indefinite">
+                </animate>
+            </rect>
+        </svg>
+
+        <h1>Introduccion a las Tablas</h1>
+        <p>table = Define el contenedor de la tabla</p>
+        <p>tr = Define las columnas de la tabla</p>
+        <p>td = define las filas de la tabla</p>
+        <p>th = Se utiliza para los encabezados y etiquetas </p>
+        <p>td = Se utiliza para los datos</p>
+
+        <table border="2" cellspacing="" style="width:100%;">
+            <thead style="color: white; background-color:black">
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Disponibilidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <table>
+                        <tr>
+                        <td>Tablet</td>
+                        <td>500$</td>
+                        <td>En Stock</td>
+                        </tr>
+                    </table>
+                </tr>
+                <tr>
+                    <td>Smartphone</td>
+                    <td>300$</td>
+                    <td>Agotado</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th>
+                <td colspan="2">Total de productos</td>
+                <td>8</td>
+                </th>
+            </tfoot>
+
+            <h1>Introduccion a los Formularios</h1>
+            <p>Tipos de campos de entradas de formularios</p>
+            <form action="procesamiento_datos.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="grupo_dato" placeholder="Nombre">
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="grupo_dato" placeholder="Apellido">
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </table>
+
+        <!-- Anadir contenido externo con iframe -->
+        <h1>iFrame para paginas webs</h1>
+        <p>Ejemplo</p>
+        <iframe src="https://twitter.com" width="500" height="400"></iframe>
+
+        <h1>Embeber contenido como favicon y videos</h1>
+        <img src="https://linkedin.com/scds/common/u/images/logos/favicons/v1/favicon.ico" alt="">
+        <br>
+        <video src="https://www.youtube.com/watch?v=UFD4SP91tSM" controls></video>
+
+        <section>
+            <!--contenido de seccion-->
+        </section>
+      
+        <article>
+            <!--contenido de articulo-->
+        </article>
+
+        <aside>
+            <!--contenido de aside-->
+        </aside>
+    </main>
+
+
+    <footer>
+        <!--pie de pagina-->
+    </footer>
+
+</body>
+</html>
