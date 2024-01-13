@@ -10,4 +10,13 @@
     
 #    <nombre_funcion>()
 
-def 
+APELLIDO = "Duarte"
+
+def funcion():
+    print("mi primera funcion")
+    nombre = "Matthias"
+    print(nombre, APELLIDO)
+    
+    funcion()
+     # Las variables globales se pueden usar en cualquier parte del codigo dentro de cualquier funcion y fuera de ello
+     
